@@ -1,0 +1,15 @@
+{"_index":"stock","_type":"_doc","_id":"1","_score":1,"_source":{"id":1,"name":"Nissan","availability":100,"location":"New York"}}
+{"_index":"stock","_type":"_doc","_id":"2","_score":1,"_source":{"id":2,"name":"Nissan","availability":20,"location":"Las Angels"}}
+{"_index":"stock","_type":"_doc","_id":"3","_score":1,"_source":{"id":3,"name":"Nissan","availability":12,"location":"Orlando"}}
+{"_index":"stock","_type":"_doc","_id":"4","_score":1,"_source":{"id":4,"name":"BMW","availability":20,"location":"Las Angels"}}
+{"_index":"stock","_type":"_doc","_id":"5","_score":1,"_source":{"id":5,"name":"BMW","availability":12,"location":"Orlando"}}
+{"_index":"stock","_type":"_doc","_id":"6","_score":1,"_source":{"id":6,"name":"BMW","availability":12,"location":"New York"}}
+{"_index":"stock","_type":"_doc","_id":"7","_score":1,"_source":{"id":7,"name":"Acura","availability":20,"location":"Las Angels"}}
+{"_index":"stock","_type":"_doc","_id":"8","_score":1,"_source":{"id":8,"name":"Acura","availability":12,"location":"Orlando"}}
+{"_index":"stock","_type":"_doc","_id":"9","_score":1,"_source":{"id":9,"name":"Acura","availability":12,"location":"New York"}}
+{"_index":"stock","_type":"_doc","_id":"10","_score":1,"_source":{"id":10,"name":"Tesla","availability":20,"location":"Las Angels"}}
+{"_index":"stock","_type":"_doc","_id":"11","_score":1,"_source":{"id":11,"name":"Tesla","availability":12,"location":"Orlando"}}
+{"_index":"stock","_type":"_doc","_id":"12","_score":1,"_source":{"id":12,"name":"Tesla","availability":12,"location":"New York"}}
+{"_index":"stock","_type":"_doc","_id":"13","_score":1,"_source":{"id":13,"name":"Toyoto","availability":20,"location":"Las Angels"}}
+{"_index":"stock","_type":"_doc","_id":"14","_score":1,"_source":{"id":14,"name":"Toyoto","availability":12,"location":"Orlando"}}
+{"_index":"stock","_type":"_doc","_id":"15","_score":1,"_source":{"id":15,"name":"Toyoto","availability":12,"location":"New York"}}

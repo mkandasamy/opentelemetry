@@ -1,0 +1,5 @@
+{"_index":"item","_type":"_doc","_id":"1","_score":1,"_source":{"id":1,"name":"Nissan","price":34000}}
+{"_index":"item","_type":"_doc","_id":"2","_score":1,"_source":{"id":2,"name":"BMW","price":50000}}
+{"_index":"item","_type":"_doc","_id":"3","_score":1,"_source":{"id":3,"name":"Acura","price":40000}}
+{"_index":"item","_type":"_doc","_id":"4","_score":1,"_source":{"id":4,"name":"Tesla","price":65000}}
+{"_index":"item","_type":"_doc","_id":"5","_score":1,"_source":{"id":5,"name":"Toyoto","price":20000}}

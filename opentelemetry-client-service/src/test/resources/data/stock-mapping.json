@@ -1,0 +1,1 @@
+{"stock":{"mappings":{"properties":{"availability":{"type":"integer"},"id":{"type":"integer"},"location":{"type":"text"},"name":{"type":"text"}}}}}

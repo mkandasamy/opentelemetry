@@ -1,0 +1,8 @@
+lfg:
+  opentelemetry:
+    service:
+      product-service-url: http://${LOCALHOST_IP:localhost}:8080
+      item-service-url: http://${LOCALHOST_IP:localhost}:8081
+      review-service-url: http://${LOCALHOST_IP:localhost}:8082
+      stock-service-url: http://${LOCALHOST_IP:localhost}:8083
+      

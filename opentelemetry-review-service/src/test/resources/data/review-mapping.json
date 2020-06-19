@@ -1,0 +1,1 @@
+{"review":{"mappings":{"properties":{"id":{"type":"integer"},"rating":{"type":"integer"},"reviews":{"type":"integer"}}}}}

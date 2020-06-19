@@ -1,0 +1,29 @@
+global:
+  scrape_interval:     15s 
+  evaluation_interval: 15s 
+scrape_configs:
+  - job_name: 'client-service'
+    metrics_path: '/actuator/prometheus'
+    scrape_interval: 5s
+    static_configs:
+    - targets: ['LOCALHOST_IP:8079']
+  - job_name: 'product-service'
+    metrics_path: '/actuator/prometheus'
+    scrape_interval: 5s
+    static_configs:
+    - targets: ['LOCALHOST_IP:8080']
+  - job_name: 'item-service'
+    metrics_path: '/actuator/prometheus'
+    scrape_interval: 5s
+    static_configs:
+    - targets: ['LOCALHOST_IP:8081']
+  - job_name: 'review-service'
+    metrics_path: '/actuator/prometheus'
+    scrape_interval: 5s
+    static_configs:
+    - targets: ['192.LOCALHOST_IP2']
+  - job_name: 'stock-service'
+    metrics_path: '/actuator/prometheus'
+    scrape_interval: 5s
+    static_configs:
+    - targets: ['LOCALHOST_IP:8083']

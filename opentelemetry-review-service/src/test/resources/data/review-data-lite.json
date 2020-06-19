@@ -1,0 +1,5 @@
+{"_index":"review","_type":"_doc","_id":"1","_score":1,"_source":{"id":1,"rating":3.5,"reviews":345}}
+{"_index":"review","_type":"_doc","_id":"2","_score":1,"_source":{"id":2,"rating":4.5,"reviews":456}}
+{"_index":"review","_type":"_doc","_id":"3","_score":1,"_source":{"id":3,"rating":4.5,"reviews":3435}}
+{"_index":"review","_type":"_doc","_id":"4","_score":1,"_source":{"id":4,"rating":4.5,"reviews":5656}}
+{"_index":"review","_type":"_doc","_id":"5","_score":1,"_source":{"id":5,"rating":4.5,"reviews":2344}}

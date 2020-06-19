@@ -1,0 +1,31 @@
+server:
+  port: 8082
+lfg:
+  opentelemetry:
+    service:
+      product-service-url: http://${LOCALHOST_IP:localhost}:8080
+      item-service-url: http://${LOCALHOST_IP:localhost}:8081
+      review-service-url: http://${LOCALHOST_IP:localhost}:8082
+      stock-service-url: http://${LOCALHOST_IP:localhost}:8083
+    trace:
+      enabled: true
+      service-name: opentelemetry-review-service
+      instrumentation-name: com.lfg.opentelemetry
+    jaeger:
+      enabled: true
+      host: ${LOCALHOST_IP:localhost}
+      port: 14250
+    feign:
+      enabled: true
+    prometheus:
+      enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: metrics,prometheus
+  endpoint:
+    info:
+      enabled: true
+    metrics:
+      enabled: true

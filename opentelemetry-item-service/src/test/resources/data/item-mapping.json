@@ -1,0 +1,1 @@
+{"item":{"mappings":{"properties":{"id":{"type":"integer"},"name":{"type":"text"},"price":{"type":"integer"}}}}}
