@@ -9,23 +9,21 @@ while getopts ":h:" opt; do
       
       echo Starting servers
       docker-compose -f docker-compose-servers.yml up -d
-      echo Waiting 10 secs
-      sleep 10
+      echo Waiting 20 secs
+      sleep 20
       
       echo Starting data dump
       docker-compose -f docker-compose-db-dump.yml up -d
-      echo Waiting 10 secs
-      sleep 10
+      echo Waiting 20 secs
+      sleep 20
       
       echo Starting services
       docker-compose -f docker-compose-services.yml up -d
-      echo Waiting 10 secs
-      sleep 10
+      echo Waiting 20 secs
+      sleep 20
       
       echo Starting client
       docker-compose -f docker-compose-client.yml up -d
-      echo Waiting 10 secs
-      sleep 10
       
       ;;
     \?)

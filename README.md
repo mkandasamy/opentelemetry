@@ -60,6 +60,8 @@ http://localhost:16686/
 
 ![jaeger spans](/screenshot/jaeger-spans.png?raw=true "Jaeger Spans")
 
+![services-view](/screenshot/spans.png?raw=true "Service View ")
+
 ### Step 6 - view metrics
 ```console
 http://localhost:9090/

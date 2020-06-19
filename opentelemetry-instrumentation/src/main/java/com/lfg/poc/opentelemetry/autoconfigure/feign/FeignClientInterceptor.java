@@ -1,16 +1,16 @@
 package com.lfg.poc.opentelemetry.autoconfigure.feign;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.stream.Collectors;
+//import java.util.HashMap;
+//import java.util.Map;
+//import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
 import io.opentelemetry.context.propagation.HttpTextFormat;
-import io.opentelemetry.trace.AttributeValue;
-import io.opentelemetry.trace.Span;
+//import io.opentelemetry.trace.AttributeValue;
+//import io.opentelemetry.trace.Span;
 import io.opentelemetry.trace.SpanContext;
 import io.opentelemetry.trace.Tracer;
 
@@ -31,7 +31,7 @@ public class FeignClientInterceptor implements RequestInterceptor {
 			}
 		});
 
-		Span currentSpan = tracer.spanBuilder(Span.Kind.CLIENT.name() + " " + requestTemplate.method() + " " + requestTemplate.path()).setParent(spanContext)
+		/*Span currentSpan = tracer.spanBuilder(Span.Kind.CLIENT.name() + " " + requestTemplate.method() + " " + requestTemplate.path()).setParent(spanContext)
 				.setSpanKind(Span.Kind.CLIENT).startSpan();
 		
 		Map<String, AttributeValue> eventAttributes = new HashMap<>();
@@ -48,6 +48,6 @@ public class FeignClientInterceptor implements RequestInterceptor {
 		currentSpan.setAttribute("http.headers", 
 				AttributeValue.stringAttributeValue(requestTemplate.headers().keySet().stream().map(e -> e + ": " + requestTemplate.headers().get(e).stream().collect(Collectors.joining(", ")))
 				.collect(Collectors.joining("\n"))));
-		currentSpan.end();
+		currentSpan.end();*/
 	}
 }

@@ -9,7 +9,7 @@
 	</parent>
 	<artifactId>opentelemetry-elasticsearch-dump</artifactId>
 	<packaging>pom</packaging>
-	<name>opentelemetry-elasticsearch</name>
+	<name>opentelemetry-elasticsearch-dump</name>
 	<description>opentelemetry-elasticsearch</description>
 	<build>
 		<plugins>
